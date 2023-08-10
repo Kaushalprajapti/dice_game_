@@ -1,0 +1,149 @@
+
+*{
+    background-image: url(background.jpeg);
+    padding: 0;
+    margin: 0;
+}
+
+#title{
+display: flex;
+padding-top: 1%;
+margin-bottom: 1%;
+flex-wrap: wrap;
+}
+#bt{
+    position: fixed;
+    right: 0;
+    background: none;
+    margin: 1%;
+}
+#newgame{
+    background: #1dcd02;
+    border: #1dcd02;
+}
+#reset{
+    background: #ffffff;
+    border: #ffffff;
+    color: rgb(2, 11, 5);
+}
+h2{
+    width: 45%;
+    margin-left: 27%;
+    text-align: center;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+    padding: 10px;
+    border: 4px ;
+    background: #6CDB67;
+    padding: 5px;
+    border: 4px solid black;
+    border-radius: 60px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.back{
+    border: 4px ;
+    background: #6CDB67;
+    padding: 5px;
+    border: 3.5px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Cardo';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#playername{
+    background: none;
+    margin-top: 5%;
+    font-size:larger;
+    display: flex;
+    justify-content: space-around;
+}
+
+#player1,#player2{
+    width: 10%;
+    text-align: center;
+    background: black;
+    color: white;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+#middle{
+    background: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+#left,#right{
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#countfirst,#countsecond{
+    padding: 10px;
+}
+
+#left1,#right1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+}
+#sumfirst,#sumsecond{
+    width: 75%;
+}
+#firstbutton,#secondbutton{
+    margin-top: 6%;
+    width: 100px;
+    padding: 5px ;
+}
+
+#bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: none;
+}
+#winnername{
+    margin: 12px;
+    padding:7px 17px;
+    background: #5ee1ff;
+    border-color: #5ee1ff;
+    color: rgb(14, 4, 77);
+    font-weight: bold;
+}
+
+#winner{
+    padding: 7px 25px;
+}
+#firstbutton,#secondbutton{
+    border: #6CDB67;
+}
+
+.hov:hover{
+    background: yellow;
+    border: yellow;
+    cursor: pointer;
+}
+
+#winnername:hover
+{
+    background: red;
+    color: black;
+    border: red;
+    cursor: pointer;
+}
+
+
+#newgame:hover,#reset:hover
+{
+    background: #5ee1ff;
+    border: #5ee1ff;
+    color: black;
+    cursor: pointer;
+}

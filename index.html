@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link href='https://fonts.googleapis.com/css?family=Cardo' rel='stylesheet'>
+    <title>The Dice Game </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title">
+        <h2>⚅ The Dice Game ⚅</h2>
+        <div id="bt">
+            <button id="newgame" class="game back">new game</button>
+        <button id="reset" class="back game">reset</button>
+        </div>
+    </div>
+
+    <div id="playername">
+        <p id="player1" class="back">
+            Player1
+        </p>
+        <p id="player2" class="back">
+            Player2
+        </p>
+    </div>
+<div id="middle">
+    <div id="left">
+        <p id="countfirst" class="back">You are not Started</p>
+        <p id="sumfirst" class="back">Sum = 0</p>
+    </div>
+        <div id="left1">
+            <img src="four.png" alt="dice" height="250px" id="image1">
+            <button id="firstbutton" class="back hov">Roll</button>
+        </div>
+        <div id="right1">
+            <img src="four.png" alt="dice"height="250px" id="image2">
+        <button id="secondbutton" class="back hov">Roll</button>
+        </div>
+    <div id="right">
+        <p id="countsecond" class="back">You are not Started</p>
+        <p id="sumsecond" class="back">Sum = 0</p>
+    </div>
+</div>
+<div id="bottom">
+    <button id="winnername" class="back">Winner</button>
+    <p id="winner" class="back">Winner is not diclared</p>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>
